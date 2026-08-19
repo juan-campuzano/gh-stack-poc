@@ -4,4 +4,4 @@ from dataclasses import dataclass
 class User:
     id: int
     name: str
-    email: str  # must be unique (v2 note)
+    email: str  # unique, required (v2+v3 note)
